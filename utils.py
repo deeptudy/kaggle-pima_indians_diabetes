@@ -48,6 +48,7 @@ def dataframe_apply_func_axis_1(
     return Series({**x, **do_when_true}) if condition_match else Series({**x, **do_when_false})
   return apply_func
 
+
 # Graph generations
 
 def generate_heatmaps(
